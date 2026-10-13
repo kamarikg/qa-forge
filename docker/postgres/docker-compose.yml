@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: qa-forge-postgres
+    environment:
+      POSTGRES_DB: qa_forge
+      POSTGRES_USER: qa_forge
+      POSTGRES_PASSWORD: qa_forge
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+
+volumes:
+  postgres_data:
