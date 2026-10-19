@@ -1,7 +1,5 @@
 
 cd ~/qa-forge
-
-cat > README.md <<'EOF'
 # QA Forge
 
 [![CI](https://github.com/kamarikg/qa-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/kamarikg/qa-forge/actions/workflows/ci.yml)
@@ -254,4 +252,3 @@ The project is intended to grow into a practical QA Automation / SDET portfolio:
 ---
 
 Built as a practical learning project for QA Automation and SDET engineering.
-EOF
